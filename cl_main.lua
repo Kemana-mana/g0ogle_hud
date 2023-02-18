@@ -77,11 +77,11 @@ RegisterCommand("testp", function(source)
     return newping
 end)
 
-TriggerEvent('chat:addSuggestion', '/moshhud', 'hide or show', {
+TriggerEvent('chat:addSuggestion', '/gohud', 'hide or show', {
     { name="hide or show", help="hides / shows the top hud" },
 })
 
-RegisterCommand("moshhud", function(source, args)
+RegisterCommand("gohud", function(source, args)
     if args[1] == "hide" then
         TriggerEvent("hidevehhud", source)
     SendNUIMessage({
