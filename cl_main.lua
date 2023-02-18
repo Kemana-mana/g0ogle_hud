@@ -57,7 +57,7 @@ end)
         fps_calc = fps_calc + 1
         Wait(0)
     end
-end) --]]
+end) ---]]
 
 CreateThread(function() -- calc
     while true do
