@@ -21,10 +21,10 @@ AddEventHandler('esx:setJob', function(job)
     jancok = ESX.PlayerData.job.label .. " - " .. ESX.PlayerData.job.grade_label
 end)
 
-RegisterNetEvent("HandlePing")
-AddEventHandler("HandlePing", function(ping)
-    newping = ping
-end)
+-- RegisterNetEvent("HandlePing")
+-- AddEventHandler("HandlePing", function(ping)
+--     newping = ping
+-- end)
 
 -- RegisterCommand("exp", function()
 --     ESX.TriggerServerCallback('esx_crafting:GetSkillLevel', function(level)
