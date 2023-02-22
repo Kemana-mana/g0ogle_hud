@@ -50,7 +50,7 @@ const getEvent = (event, data = {}, cb = (() => {})) => {
 }
 
 function keepitUpdated() {
-    getEvent("go_hud:HandInfo", {}, response => {
+    getEvent("g0ogle_hud:HandInfo", {}, response => {
         Object.keys(response).forEach(key => {
             let value = response[key]
 
