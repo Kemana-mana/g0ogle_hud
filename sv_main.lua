@@ -4,3 +4,4 @@ AddEventHandler("GetPlayerPing", function()
     local ping = GetPlayerPing(player)
     TriggerClientEvent("HandlePing", player, ping)
 end)
+-- 
